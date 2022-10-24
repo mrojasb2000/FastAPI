@@ -1,6 +1,12 @@
 # FastAPI Microservices
 
 ## Python Version
+
+Check Python version
+```sh
+$ Python --version
+```
+
 Install Python version required
 
 ```sh
