@@ -76,3 +76,11 @@ $ uvicorn main:app --reload
 $ curl http://localhost:8000/
 {"message":"Welcome to FastAPI Nerds"}
 ```
+
+### FastAPI documentation 
+
+FastAPI default documentation endpoint
+
+```
+http://localhost:8000/docs
+```
