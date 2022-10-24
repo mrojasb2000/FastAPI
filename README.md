@@ -62,4 +62,17 @@ uvicorn==0.18.2
 ```sh
 $ pip install -r requirements.txt
 ```
-##
+
+
+## Execute app
+
+```sh
+$ uvicorn main:app --reload
+```
+
+### Page View
+
+```
+$ curl http://localhost:8000/
+{"message":"Welcome to FastAPI Nerds"}
+```
